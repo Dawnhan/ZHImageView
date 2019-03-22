@@ -19,9 +19,9 @@
   指定 imageV.imageViewDelegate = self;
   
   并实现代理方法
-  //点击事件
+
   - (void)ZHImageViewDelegateSigleTap:(NSString *)imageUrl
-  //长按事件
+ 
   - (void)ZHImageViewDelegateLongTap:(NSString *)imageUrl
   
 5.如果需要加载网络图片
