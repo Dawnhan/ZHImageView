@@ -27,3 +27,8 @@
 5.如果需要加载网络图片
 
   可以通过修改ZHImageView.m 文件中的方法 - (void)setImageUrl:(NSString *)imageUrl 自己加载网络图片
+  
+6.如果需要长按保存功能
+
+  还需引入ZHSaveImageManager文件夹，调用[ZHSaveImageManager saveTheImage:[UIImage imageNamed:imageUrl]];
+  
